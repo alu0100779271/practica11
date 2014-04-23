@@ -1,0 +1,143 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación del número PI]{Número PI}
+\author[Aidé Alicia Cordobés Betancor]{Aidé}
+\date[23-04-2014]{23 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Un poco de historia}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Un poco de historia}
+La búsqueda del mayor número de decimales
+del número $pi$ ha supuesto un esfuerzo constante
+de numerosos científicos a lo largo de la historia.
+Algunas aproximaciones históricas de pi son las
+siguientes.
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Características matemáticas}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Características matemáticas}
+La búsqueda del mayor número de decimales
+del número $pi$ ha supuesto un esfuerzo constante
+de numerosos científicos a lo largo de la historia.
+Algunas aproximaciones históricas de pi son las
+siguientes.
+\begin{block}{Características}
+  \begin{itemize}
+  \item
+  $pi$ es la razón entre la longitud de cualquier circunferencia y la de su diámetro.
+  \pause
+
+  \item
+  El área de un círculo unitario (de radio que tiene longitud 1, en el plano geométrico usual o plano euclídeo).
+  \pause
+
+  \item
+  El menor número real x positivo tal que sin(x) = 0
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Fórmulas}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fórmulas}
+\begin{itemize}
+  \item
+  
+
+  \item
+  
+  
+  \item
+  
+  
+  \item
+  
+  
+  \item
+
+  \end{itemize}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}
+    Documento de verificación del grado.
+    (2011)
+
+    \beamertemplatebookbibitems
+    \bibitem[Número PI, 2014]{PI}
+    Número PI.
+    (2014)
+    {\small $http://es.wikipedia.org/wiki/N$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex}
+    CTAN. {\small $http://centros5.pntic.mec.es/ies.de.bullas/dp/matema/conocer/numpi.htm$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
